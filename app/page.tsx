@@ -2,9 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center  justify-between p-24">
-      <p className="text-red-600">Shucks.js</p>
-      <p className="">Shucks.js</p>
+    <main className="flex min-h-screen flex-col items-center w-full  p-24">
+      <h1>Sway through the crowd to an empty space</h1>
     </main>
   );
 }
