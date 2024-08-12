@@ -69,9 +69,18 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-[7.7rem] font-bold;
+    @apply text-[7.7rem] font-[650];
   }
   h2 {
     @apply text-[2.8rem] font-semibold;
+  }
+  h3 {
+    @apply text-[2.4rem] font-semibold;
+  }
+  h4 {
+    @apply text-[1.8] font-semibold;
+  }
+  li::marker {
+    @apply text-white/90 text-lg align-middle;
   }
 }
