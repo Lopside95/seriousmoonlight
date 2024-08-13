@@ -4,26 +4,6 @@ import Image from "next/image";
 export default function Home() {
   const sway = "xl:-my-10 -my-5";
 
-  // const { toast } = useToast();
-
-  // const handleCopy = async (text: string) => {
-  //   try {
-  //     await navigator.clipboard.writeText(text);
-
-  //     toast({
-  //       title: "Copied to clipboard",
-  //       className: " border-none text-4xl",
-  //       duration: 1500,
-  //     });
-  //   } catch (error: unknown) {
-  //     toast({
-  //       title: "Failed to copy",
-  //       className: " bottom-10 left-10",
-  //     });
-  //     console.log(error);
-  //   }
-  // };
-
   return (
     <main className="flex min-h-screen flex-col gap-20 md:gap-52">
       <section className="text-right self-end">
