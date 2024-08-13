@@ -21,7 +21,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={`${inter.className} `}>
           <Navbar />
-          <main className="xl:px-72 md:px-20 px-10 py-10 md:py-24 ">
+          <main className="2xl:px-72 lg:px-20 px-14 py-10 md:py-24 ">
             {children}
           </main>
           <Toaster />

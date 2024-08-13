@@ -25,7 +25,7 @@ export default function Home() {
   // };
 
   return (
-    <main className="flex min-h-screen flex-col gap-20 sm:gap-52">
+    <main className="flex min-h-screen flex-col gap-20 md:gap-52">
       <section className="text-right self-end">
         <h1 className={sway}>
           <span style={{ fontStyle: "italic" }} className="">
@@ -41,7 +41,7 @@ export default function Home() {
       </section>
       <section>{intro}</section>
       <section>
-        <ul className="sm:text-[1.4rem] text-lg max-w-[1000px] sm:leading-10 self-center flex flex-col gap-2 list-disc">
+        <ul className="md:text-[1.4rem] text-lg max-w-[1000px] md:leading-10 self-center flex flex-col gap-2 list-disc">
           <li>
             <span className="font-bold">Homework:</span> understanding what you
             want and the world you operate in.
@@ -66,9 +66,9 @@ export default function Home() {
         </ul>
       </section>
       <section className=" self-start">
-        <h3>Let&apos;s Dance</h3>
-        <p className="underline underline-offset-4 text-lg sm:text-2xl font-light cursor-pointer">
-          peter@seriousmoonlight.co.za
+        <h3>Let&apos;s dance</h3>
+        <p className="underline underline-offset-4 text-lg md:text-2xl font-light cursor-auto ">
+          peter@serioumdoonlight.co.za
         </p>
       </section>
     </main>
@@ -76,7 +76,7 @@ export default function Home() {
 }
 
 export const intro = (
-  <h2 className=" leading-8 sm:leading-[3.2rem] text-center">
+  <h2 className=" leading-8 lg:leading-[3.2rem] text-center">
     We develop <span className="text-orange-500">strategies</span> and{" "}
     <span className="text-orange-500">content</span> that take you to an “empty
     space”. Where you can be visible and understood. Away from the hustle and
