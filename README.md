@@ -1,1 +1,1 @@
-WIP: Company website using TypeScript, Next.js and TailwindCSS
+Company webiste for Serious Moonlight Consulting

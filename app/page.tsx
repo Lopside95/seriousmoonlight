@@ -4,6 +4,16 @@ import Image from "next/image";
 export default function Home() {
   const sway = "xl:-my-10 -my-5";
 
+  const intro = (
+    <h2 className=" leading-8 lg:leading-[3.2rem] text-center">
+      We develop <span className="text-orange-500">strategies</span> and{" "}
+      <span className="text-orange-500">content</span> that take you to an
+      “empty space”. Where you can be visible and understood. Away from the
+      hustle and noise of an overcrowded marketplace. To get there, we do the
+      simple things right.
+    </h2>
+  );
+
   return (
     <main className="flex min-h-screen flex-col gap-20 md:gap-52">
       <section className="text-right self-end">
@@ -54,13 +64,3 @@ export default function Home() {
     </main>
   );
 }
-
-export const intro = (
-  <h2 className=" leading-8 lg:leading-[3.2rem] text-center">
-    We develop <span className="text-orange-500">strategies</span> and{" "}
-    <span className="text-orange-500">content</span> that take you to an “empty
-    space”. Where you can be visible and understood. Away from the hustle and
-    noise of an overcrowded marketplace. To get there, we do the simple things
-    right.
-  </h2>
-);
