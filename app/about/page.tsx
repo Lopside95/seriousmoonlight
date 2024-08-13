@@ -3,9 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="sm:max-w-[70%] pt-20">
+      <div className="sm:max-w-[70%]">
         <h3>About Us</h3>
-        <h4 className="sm:text-2xl sm:leading-9 font-[270]">
+        <h4 className="sm:text-2xl sm:leading-9 font-normal sm:font-[270]">
           <div className="pt-8 pb-6">
             We’re a collection of brand strategy and content specialists who
             work together to tell compelling stories.

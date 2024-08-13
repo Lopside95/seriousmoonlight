@@ -1,13 +1,34 @@
+"use client";
 import Image from "next/image";
 
 export default function Home() {
   const sway = "xl:-my-10 -my-5";
 
+  // const { toast } = useToast();
+
+  // const handleCopy = async (text: string) => {
+  //   try {
+  //     await navigator.clipboard.writeText(text);
+
+  //     toast({
+  //       title: "Copied to clipboard",
+  //       className: " border-none text-4xl",
+  //       duration: 1500,
+  //     });
+  //   } catch (error: unknown) {
+  //     toast({
+  //       title: "Failed to copy",
+  //       className: " bottom-10 left-10",
+  //     });
+  //     console.log(error);
+  //   }
+  // };
+
   return (
-    <main className="flex min-h-screen flex-col gap-20 sm:gap-52 py-24">
-      <section className="text-right self-end ">
+    <main className="flex min-h-screen flex-col gap-20 sm:gap-52">
+      <section className="text-right self-end">
         <h1 className={sway}>
-          <span style={{ fontStyle: "italic" }} className="font">
+          <span style={{ fontStyle: "italic" }} className="">
             Sway{" "}
           </span>{" "}
           through
@@ -44,9 +65,9 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section className="self-start">
+      <section className=" self-start">
         <h3>Let&apos;s Dance</h3>
-        <p className="underline underline-offset-4 text-lg sm:text-2xl font-light">
+        <p className="underline underline-offset-4 text-lg sm:text-2xl font-light cursor-pointer">
           peter@seriousmoonlight.co.za
         </p>
       </section>
@@ -55,7 +76,7 @@ export default function Home() {
 }
 
 export const intro = (
-  <h2 className=" leading-9 sm:leading-[3.2rem] text-center">
+  <h2 className=" leading-8 sm:leading-[3.2rem] text-center">
     We develop <span className="text-orange-500">strategies</span> and{" "}
     <span className="text-orange-500">content</span> that take you to an “empty
     space”. Where you can be visible and understood. Away from the hustle and
