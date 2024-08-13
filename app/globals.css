@@ -69,10 +69,10 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    @apply text-[7.7rem] font-[650];
+    @apply max-sm:text-[4rem] text-[7.7rem] font-[650];
   }
   h2 {
-    @apply text-[2.8rem] font-semibold;
+    @apply max-sm:text-2xl text-[2.8rem] font-semibold;
   }
   h3 {
     @apply text-[2.4rem] font-semibold;

@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="flex justify-between h-16 items-center p-14 ">
         <Link
           onClick={() => setActive("/")}
-          className={`text-3xl font-light ${
+          className={`text-3xl font-bold md:font-light ${
             active === "/"
               ? "underline underline-offset-[14px] decoration-1"
               : ""
