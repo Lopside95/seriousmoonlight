@@ -58,7 +58,7 @@ export default function Home() {
       <section className=" self-start">
         <h3>Let&apos;s dance</h3>
         <p className="underline underline-offset-4 text-lg md:text-2xl font-light cursor-auto ">
-          peter@serioumdoonlight.co.za
+          peter@seriousmoonlight.co.uk
         </p>
       </section>
     </main>
