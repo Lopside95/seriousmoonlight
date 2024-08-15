@@ -1,12 +1,13 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useRouter } from "next/router";
 
 export default function Home() {
   const sway = "xl:-my-10 -my-5";
 
   const pathname = usePathname();
+
+  console.log(pathname);
 
   const intro = (
     <h2 className=" leading-8 lg:leading-[3.2rem] text-center">
@@ -62,9 +63,7 @@ export default function Home() {
       <section className=" self-start">
         <h3>Let&apos;s dance</h3>
         <p className="underline underline-offset-4 text-lg md:text-2xl font-light cursor-auto ">
-          {pathname.includes("uk")
-            ? "peter@seriousmoonlight.co.uk"
-            : "peter@seriousmoonlight.co.za"}
+          peter@seriousmoonlight.co.uk
         </p>
       </section>
     </main>
