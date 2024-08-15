@@ -1,8 +1,12 @@
 "use client";
-import Image from "next/image";
+
+import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 
 export default function Home() {
   const sway = "xl:-my-10 -my-5";
+
+  const pathname = usePathname();
 
   const intro = (
     <h2 className=" leading-8 lg:leading-[3.2rem] text-center">
@@ -18,7 +22,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col gap-20 md:gap-52">
       <section className="text-right self-end">
         <h1 className={sway}>
-          <span style={{ fontStyle: "italic" }} className="">
+          <span className="" style={{ fontStyle: "italic" }}>
             Sway{" "}
           </span>{" "}
           through
@@ -58,7 +62,9 @@ export default function Home() {
       <section className=" self-start">
         <h3>Let&apos;s dance</h3>
         <p className="underline underline-offset-4 text-lg md:text-2xl font-light cursor-auto ">
-          peter@seriousmoonlight.co.uk
+          {pathname.includes("uk")
+            ? "peter@seriousmoonlight.co.uk"
+            : "peter@seriousmoonlight.co.za"}
         </p>
       </section>
     </main>
